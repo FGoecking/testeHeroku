@@ -12,7 +12,7 @@ public class Controller {
 
     @GetMapping
     public ResponseEntity<String> welcome(){
-        return new ResponseEntity<>("Welcome", HttpStatus.OK);
+        return new ResponseEntity<>("Welcome Continuous Integration", HttpStatus.OK);
     }
 
 }
